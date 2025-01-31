@@ -3,6 +3,8 @@ A simple elevator simulator with an ASCII UI
 
 ## Dependencies
 
+I added MQTT support to enable the elevator to communicate with other applications, such as a building monitoring system. MQTT support should probably be optional.
+
 - Needs MQTT code.
 	Mac: brew install libpaho-mqtt
 	RPi: 
